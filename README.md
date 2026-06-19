@@ -112,13 +112,13 @@ npm run format   # formato automático con Biome
 ### Desarrollo con Docker Compose
 
 ```bash
-docker compose -f docker-compose-dev.yml up --build
+docker compose -f docker-compose-dev.yml up
 ```
 
 ### Producción con Docker Compose
 
 ```bash
-docker compose up --build -d
+docker compose up -d
 ```
 
 El servicio expone el puerto `3000`.
