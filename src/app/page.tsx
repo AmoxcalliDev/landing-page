@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-2xl font-bold text-emerald-400">MX</span>
-              <span className="text-xs uppercase tracking-widest text-zinc-500">Hecho en Mexico</span>
+              <span className="text-xs uppercase tracking-widest text-zinc-500">Para el mundo</span>
             </div>
           </div>
         </div>
