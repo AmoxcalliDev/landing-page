@@ -1,0 +1,14 @@
+services:
+  project:
+    image: node:24-alpine
+    init: true
+    working_dir: /home
+    container_name: landing-page
+    command: sh -c "npm i && npm run dev"
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/home
+    env_file:
+      - .env
+    restart: unless-stopped
