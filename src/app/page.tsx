@@ -77,7 +77,7 @@ export default function Home() {
           </h1>
 
           <p className="animate-fade-up-delay-2 max-w-xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-            Del nahuatl: <em className="text-zinc-900 dark:text-zinc-200">"Casa de libros, biblioteca"</em>. Somos la comunidad
+            Amoxcalli, del nahuatl: <em className="text-zinc-900 dark:text-zinc-200">"Casa de libros, biblioteca"</em>. Somos la comunidad
             donde el codigo se comparte, se mejora y se celebra juntos.
           </p>
 
@@ -175,9 +175,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold">
               Nuestro <span className="gradient-text">stack</span>
             </h2>
-            <p className="max-w-xl text-zinc-600 dark:text-zinc-400">
-              Trabajamos con lo que nos gusta y siempre estamos abiertos a tus sugerencias.
-            </p>
+            <p className="max-w-xl text-zinc-600 dark:text-zinc-400">Estas son las tecnologias con las que construimos y colaboramos todos los dias.</p>
           </div>
 
           <div data-reveal className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
@@ -193,6 +191,13 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div
+            data-reveal
+            className="mt-8 rounded-xl border border-emerald-500/25 bg-emerald-500/10 px-5 py-4 text-sm text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-500/10 dark:text-emerald-300"
+          >
+            Puedes plantear una idea para un nuevo proyecto y, si ya desarrollas con alguna tecnologia, tambien puedes iniciarlo para que forme parte de Amoxcalli.
           </div>
         </div>
       </section>
