@@ -35,7 +35,7 @@ export default function RepoCard({ repo }: RepoCardProps) {
                 <h3 className="font-semibold text-zinc-900 transition-colors group-hover:text-emerald-500 dark:text-zinc-100">
                     {repo.name}
                 </h3>
-                <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">{repo.description ?? "Sin descripcion aun."}</p>
+                <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">{repo.description ?? "Sin descripción aún."}</p>
             </div>
             <div className="mt-auto flex items-center gap-2">
                 {repo.language && (

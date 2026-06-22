@@ -81,7 +81,7 @@ export default function ProjectsSection() {
                     <h2 className="text-4xl font-bold">
                         Lo que estamos <span className="gradient-text">construyendo</span>
                     </h2>
-                    <p className="max-w-xl text-zinc-600 dark:text-zinc-400">Herramientas reales, codigo abierto, listos para usar y mejorar.</p>
+                    <p className="max-w-xl text-zinc-600 dark:text-zinc-400">Herramientas reales, código abierto, listas para usar y mejorar.</p>
                 </div>
 
                 {isLoading && <p className="text-sm text-zinc-500 dark:text-zinc-500">Cargando repositorios...</p>}
