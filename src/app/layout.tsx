@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+const { env } = process;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -102,6 +105,18 @@ export default function RootLayout({
             }),
           }}
         />
+
+        {
+          env.NODE_ENV === 'production' && <>
+            <head>
+              <Script
+                defer
+                src="https://umami.byfruits.dev/script.js"
+                data-website-id="609c0fb2-2e79-49bd-9434-ef34004d4f44"
+              />
+            </head>
+          </>
+        }
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
